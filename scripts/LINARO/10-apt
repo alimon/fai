@@ -1,7 +1,0 @@
-#!/bin/sh
-set -e
-
-fcopy -M /etc/apt/sources.list.d/linaro.list
-#fcopy -M /etc/apt/apt.conf.d/linaro.conf
-
-

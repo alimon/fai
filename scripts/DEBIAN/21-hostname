@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-fcopy -M /etc/hosts
+fcopy -S -M /etc/hosts
 echo $HOSTNAME > $target/etc/hostname
