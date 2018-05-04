@@ -1,0 +1,5 @@
+deb http://obs.linaro.org/linaro-overlay-{%release%}/{%obs_release%}/ ./
+deb-src http://obs.linaro.org/linaro-overlay-{%release%}/{%obs_release%}/ ./
+deb http://obs.linaro.org/b2260/{%release%}/ ./
+deb-src http://obs.linaro.org/b2260/{%release%}/ ./
+

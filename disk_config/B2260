@@ -1,0 +1,4 @@
+disk_config disk1 disklabel:gpt fstabkey:uuid bootable:2
+primary /boot/uboot 64 vfat rw createopts="-n BOOT"
+primary / 1G- ext4 rw createopts="-L rootfs-sd"
+

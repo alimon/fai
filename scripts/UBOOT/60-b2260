@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+if ifclass B2260
+then
+    cp -r $FAI/files/uboot/b2260 $target/boot/uboot/
+    cp $target/usr/lib/u-boot/stih410-b2260/u-boot.bin $target/boot/uboot/b2260
+fi
