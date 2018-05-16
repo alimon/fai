@@ -1,10 +1,27 @@
+PACKAGES install-norec BACKPORTS
+libdrm-common/stretch-backports
+libdrm2/stretch-backports
+libglvnd0/stretch-backports
+libwayland-egl1-mesa/stretch-backports
+libegl1-mesa/stretch-backports
+libgbm1/stretch-backports
+libllvm5.0/stretch-backports
+libgl1-mesa-dri/stretch-backports
+libglx-mesa0/stretch-backports
+libgl1-mesa-glx/stretch-backports
+libglx0/stretch-backports
+libgl1/stretch-backports
+libglapi-mesa/stretch-backports
+libegl-mesa0/stretch-backports
+libegl1/stretch-backports
+libgles2/stretch-backports
+libgles2-mesa/stretch-backports
+
 PACKAGES install-norec
 alsa-utils
 bc
-bluedevil
 build-essential
 btrfs-tools
-breeze
 bzip2
 chromium
 dbus-x11
@@ -97,6 +114,10 @@ xserver-xorg-video-fbdev
 xterm
 wireless-tools
 zip
+
+PACKAGES install-norec
+bluedevil
+breeze
 
 PACKAGES install-norec STRETCH
 nodejs-legacy
