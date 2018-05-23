@@ -1,6 +1,6 @@
 PACKAGES install-norec
 u-boot-menu
 u-boot-sti
-linux-image-4.16.8-00001-g70ff53be16be
+linux-b2260
 firmware-linux-free
 firmware-misc-nonfree
