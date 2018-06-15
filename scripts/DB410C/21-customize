@@ -23,6 +23,11 @@ else
     chroot $target /usr/sbin/update-initramfs -c -k ${KVERS}
 fi
 
+# Hold the kernel package to avoid kernel upgrade
+# This is a workaround to avoid upgrade the kernel (hence the modules in /lib/modules)
+# without updating the boot image
+$ROOTCMD apt-mark hold linux-image-${KVERS}
+
 OUT=$FAI/out
 mkdir -p $OUT
 cp $target/boot/vmlinuz-${KVERS} $OUT/
