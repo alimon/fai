@@ -47,6 +47,7 @@ gnupg
 gpsd
 gpsd-clients
 gstreamer1.0-alsa
+gstreamer1.0-gl
 gstreamer1.0-libav
 gstreamer1.0-plugins-base-apps
 gstreamer1.0-plugins-bad
