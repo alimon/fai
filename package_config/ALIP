@@ -21,7 +21,6 @@ PACKAGES install-norec
 alsa-utils
 bc
 build-essential
-btrfs-tools
 bzip2
 chromium
 dbus-x11
