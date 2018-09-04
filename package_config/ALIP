@@ -119,14 +119,5 @@ PACKAGES install-norec
 bluedevil
 breeze
 
-PACKAGES install-norec STRETCH
-nodejs-legacy
-
-PACKAGES install-norec BUSTER
-nodejs
-
-PACKAGES install-norec SID
-nodejs
-
 PACKAGES install-norec QCOM
 96boards-artwork
