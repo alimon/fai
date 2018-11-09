@@ -77,8 +77,6 @@ mesa-utils
 mesa-utils-extra
 modemmanager
 network-manager-gnome
-obexftp
-obexpushd
 pavucontrol-qt
 pcmanfm-qt
 phonon4qt5-backend-gstreamer
@@ -114,6 +112,10 @@ xserver-xorg-video-fbdev
 xterm
 wireless-tools
 zip
+
+PACKAGES install-norec STRETCH
+obexftp
+obexpushd
 
 PACKAGES install-norec
 bluedevil
