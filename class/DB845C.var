@@ -1,0 +1,2 @@
+KVERS=5.1.0-qcomlt-arm64
+fdtfile=qcom/sdm845-db845c.dtb
