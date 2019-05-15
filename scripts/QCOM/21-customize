@@ -2,7 +2,7 @@
 set -e
 
 cat << EOF > $target/etc/fstab
-/dev/disk/by-partlabel/rootfs / ext4   rw,relatime,data=ordered 0 1
+/dev/disk/by-partlabel/${ROOTFS_PARTLABEL} / ext4   rw,relatime,data=ordered 0 1
 EOF
 
 if ifclass INSTALLER; then
