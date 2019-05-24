@@ -1,0 +1,25 @@
+PACKAGES install-norec
+bash-completion
+brotli
+dhcpcd5
+docker
+dracut
+e2fsprogs
+ebtables
+efibootmgr
+efitools
+efivar
+gawk
+gzip
+iperf
+iputils-ping
+linuxptp
+lsof
+lz4
+nfs-common
+obconf
+runc
+sed
+tar
+traceroute
+wget
