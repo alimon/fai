@@ -3,7 +3,6 @@ bash-completion
 brotli
 dhcpcd5
 docker
-dracut
 e2fsprogs
 ebtables
 efibootmgr
