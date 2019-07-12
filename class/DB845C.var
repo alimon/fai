@@ -1,3 +1,3 @@
-KVERS=5.1.0-qcomlt-arm64
+KVERS=5.2.0-qcomlt-arm64
 fdtfile=qcom/sdm845-db845c.dtb
 ROOTFS_PARTLABEL=rootfs
