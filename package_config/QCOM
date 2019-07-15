@@ -15,8 +15,8 @@ linux-image-4.14.0-qcomlt-arm64
 rmtfs
 
 PACKAGES install-norec DB845C
-linux-image-5.1.0-qcomlt-arm64
 firmware-qcom-dragonboard845c
+linux-image-5.2.0-qcomlt-arm64
 
 PACKAGES install-norec UBOOT
 u-boot-menu
