@@ -1,10 +1,10 @@
 PACKAGES install-norec QCOM
 qrtr
+rmtfs
 
 PACKAGES install-norec DB410C
 firmware-qcom-dragonboard410c
 linux-image-4.14.0-qcomlt-arm64
-rmtfs
 
 PACKAGES install-norec DB600C
 linux-image-4.14.0-qcomlt-arm
@@ -13,7 +13,6 @@ PACKAGES install-norec DB820C
 firmware-atheros
 firmware-qcom-dragonboard820c
 linux-image-4.14.0-qcomlt-arm64
-rmtfs
 
 PACKAGES install-norec DB845C
 firmware-qcom-dragonboard845c
