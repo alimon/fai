@@ -1,9 +1,0 @@
-#!/bin/bash
-set -x
-mkdir -p "${FAI}/out/"
-
-cd $target/
-
-sudo tar cfp ${FAI}/out/rootfs-ledge-debian.tar --one-file-system --xattrs .
-
-cd -
