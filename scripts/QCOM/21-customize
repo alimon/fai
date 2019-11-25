@@ -15,6 +15,9 @@ if ifclass INSTALLER; then
 EOF
 fi
 
+# Add tsched=0 on module-udev-detect to fix distorted sound
+sed -i "s|^load-module module-udev-detect|load-module module-udev-detect tsched=0|" $target/etc/pulse/default.pa
+
 # In case initrd doesn't exist, create it, else update
 if [ -f $target/boot/initrd.img-${KVERS} ]
 then
