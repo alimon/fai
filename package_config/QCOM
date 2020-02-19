@@ -1,5 +1,5 @@
 PACKAGES install-norec QCOM
-adsprpc
+fastrpc
 qrtr
 rmtfs
 
