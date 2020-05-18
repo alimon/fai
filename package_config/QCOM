@@ -18,7 +18,7 @@ linux-image-5.7.0-qcomlt-arm64
 PACKAGES install-norec DB845C
 firmware-atheros
 firmware-qcom-dragonboard845c
-firmware-qcom-sdm845
+firmware-qcom-soc
 linux-image-5.4.0-qcomlt-arm64
 network-manager-config-dragonboard845c
 pd-mapper
