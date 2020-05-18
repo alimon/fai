@@ -5,6 +5,7 @@ rmtfs
 
 PACKAGES install-norec DB410C
 firmware-qcom-dragonboard410c
+firmware-qcom-soc
 linux-image-5.4.0-qcomlt-arm64
 
 PACKAGES install-norec DB600C
