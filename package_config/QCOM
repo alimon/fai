@@ -6,7 +6,7 @@ rmtfs
 PACKAGES install-norec DB410C
 firmware-qcom-dragonboard410c
 firmware-qcom-soc
-linux-image-5.4.0-qcomlt-arm64
+linux-image-5.7.0-qcomlt-arm64
 
 PACKAGES install-norec DB600C
 linux-image-4.14.0-qcomlt-arm
@@ -21,7 +21,7 @@ PACKAGES install-norec DB845C
 firmware-atheros
 firmware-qcom-dragonboard845c
 firmware-qcom-soc
-linux-image-5.4.0-qcomlt-arm64
+linux-image-5.7.0-qcomlt-arm64
 network-manager-config-dragonboard845c
 pd-mapper
 tqftpserv
