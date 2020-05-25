@@ -123,3 +123,6 @@ breeze
 
 PACKAGES install-norec QCOM
 96boards-artwork
+
+PACKAGES install-norec SID
+alsa-ucm-conf
