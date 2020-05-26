@@ -126,3 +126,4 @@ PACKAGES install-norec QCOM
 
 PACKAGES install-norec SID
 alsa-ucm-conf
+fonts-dejavu-core
