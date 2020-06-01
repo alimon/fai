@@ -70,6 +70,16 @@ wireless-tools
 zip
 
 PACKAGES install-norec
+dbus-x11
+x11-utils
+x11-xserver-utils
+xinit
+xserver-xorg
+xserver-xorg-input-evdev
+xserver-xorg-video-fbdev
+xterm
+
+PACKAGES install-norec
 gdm3
 gnome-core
 
