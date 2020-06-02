@@ -38,3 +38,24 @@ cp $target/usr/lib/linux-image-${KVERS}/$fdtfile $OUT/
 cp $target/boot/initrd.img-${KVERS} $OUT/
 cp $target/boot/config-${KVERS} $OUT/
 cp $target/boot/System.map-${KVERS} $OUT/
+
+# Disable GDM3 suspend causes problems in DB845c
+# GDM provides PostLogin hook but dosen't set DISPLAY and dconf.
+# gsettings tools cannot be used.
+if [ -d $target/etc/gdm3 ]; then
+    mkdir -p $target/home/linaro/.config/autostart/
+    cat > $target/home/linaro/.config/autostart/nosuspend.desktop << EOF
+[Desktop Entry]
+Encoding=UTF-8
+Exec=/usr/bin/dconf write /org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-type "'nothing'"
+Name=Disable suspend
+Comment=Disable suspend on GNOME3
+Terminal=false
+OnlyShowIn=GNOME
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+EOF
+
+    chroot $target chown -R linaro:linaro /home/linaro/.config
+fi
