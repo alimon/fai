@@ -2,26 +2,13 @@ PACKAGES install-norec
 alsa-utils
 bc
 build-essential
-bzip2
 chromium
-debian-keyring
-default-jre
-desktop-file-utils
-dnsmasq-base
-eject
 evtest
 fbset
-fonts-arphic-ukai
-fonts-arphic-uming
-fonts-freefont-ttf
-fonts-ipafont-gothic
-fonts-ipafont-mincho
-fonts-unfonts-core
 gdbserver
 git
 glmark2
 glshim
-gnome-keyring
 gnupg
 gpsd
 gpsd-clients
@@ -33,7 +20,6 @@ gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-good
 gstreamer1.0-pulseaudio
 gstreamer1.0-tools
-gvfs
 htop
 i2c-tools
 idlestat
@@ -42,30 +28,16 @@ iperf
 iw
 kmscube
 lm-sensors
-locales
 lsof
 mesa-utils
 mesa-utils-extra
-modemmanager
-network-manager-gnome
-policykit-1
 powerdebug
 powertop
-python-libsoc
-python-mraa
-python-upm
 ppp
-qterminal
 read-edid
 strace
 usb-modeswitch
 vim
-wamerican
-xdg-user-dirs
-xmms2-client-cli
-xmms2-plugin-mad
-xmms2-plugin-pulse
-xmms2-plugin-vorbis
 wireless-tools
 zip
 
@@ -81,18 +53,13 @@ xterm
 
 PACKAGES install-norec
 gdm3
-gnome-core
-
-PACKAGES install-norec STRETCH
-obexftp
-obexpushd
-
-PACKAGES install-norec
 gnome-bluetooth
+gnome-core
+gnome-music
+gnome-photos
 
 PACKAGES install-norec QCOM
 96boards-artwork
 
 PACKAGES install-norec SID
 alsa-ucm-conf
-fonts-dejavu-core
