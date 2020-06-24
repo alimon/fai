@@ -2,9 +2,9 @@ PACKAGES install-norec
 alsa-utils
 bc
 build-essential
-chromium
 evtest
 fbset
+firefox
 gdbserver
 git
 glmark2
