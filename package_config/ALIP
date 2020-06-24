@@ -22,6 +22,7 @@ alsa-utils
 bc
 build-essential
 bzip2
+chromium
 dbus-x11
 debian-keyring
 default-jre
@@ -126,13 +127,3 @@ PACKAGES install-norec QCOM
 PACKAGES install-norec SID
 alsa-ucm-conf
 fonts-dejavu-core
-
-
-PACKAGES install-norec STRETCH
-chromium
-PACKAGES install-norec BUSTER
-chromium
-PACKAGES install-norec BULLSEYE
-chromium
-PACKAGES install-norec SID
-falkon
