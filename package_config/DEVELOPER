@@ -29,8 +29,8 @@ parted
 powerdebug
 powertop
 psmisc
+python2-minimal
 python-libsoc
-python-minimal
 python-mraa
 python-upm
 python3

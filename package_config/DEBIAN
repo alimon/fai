@@ -31,7 +31,7 @@ openssh-server
 procps
 pulseaudio
 pulseaudio-module-bluetooth
-python-minimal
+python2-minimal
 rfkill
 rsyslog
 ssh-import-id
