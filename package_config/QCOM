@@ -26,6 +26,11 @@ network-manager-config-dragonboard845c
 pd-mapper
 tqftpserv
 
+PACKAGES install-norec RB5
+linux-image-5.10.0-qcomlt-arm64
+pd-mapper
+tqftpserv
+
 PACKAGES install-norec UBOOT
 u-boot-menu
 u-boot-qcom
