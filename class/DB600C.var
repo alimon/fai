@@ -1,3 +1,0 @@
-KVERS=4.14.0-qcomlt-arm
-fdtfile=qcom-apq8064-arrow-sd-600eval.dtb
-ROOTFS_PARTLABEL=userdata
