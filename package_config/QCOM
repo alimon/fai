@@ -19,6 +19,7 @@ pd-mapper
 tqftpserv
 
 PACKAGES install-norec RB5
+firmware-qcom-rb5
 pd-mapper
 tqftpserv
 
