@@ -2,24 +2,27 @@ PACKAGES install-norec QCOM
 fastrpc
 firmware-atheros
 firmware-qcom-soc
-linux-image-5.10.0-qcomlt-arm64
 qrtr
 rmtfs
 
 PACKAGES install-norec DB410C
 firmware-qcom-dragonboard410c
+linux-image-5.10.0-qcomlt-arm64
 
 PACKAGES install-norec DB820C
 firmware-qcom-dragonboard820c
+linux-image-5.10.0-qcomlt-arm64
 
 PACKAGES install-norec DB845C
 firmware-qcom-dragonboard845c
+linux-image-5.10.0-qcomlt-arm64
 network-manager-config-dragonboard845c
 pd-mapper
 tqftpserv
 
 PACKAGES install-norec RB5
 firmware-qcom-rb5
+linux-image-5.12.0-qcomlt-arm64
 pd-mapper
 tqftpserv
 
