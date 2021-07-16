@@ -1,6 +1,6 @@
 PACKAGES install-norec
 linaro-overlay-minimal
 96boards-tools-common
-python-pexpect
-python-yaml
+python3-pexpect
+python3-yaml
 rsync
