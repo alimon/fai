@@ -1,3 +1,4 @@
 KVERS=5.13.0-qcomlt-arm64
 fdtfile=qcom/apq8096-db820c.dtb
 ROOTFS_PARTLABEL=rootfs
+SERIAL_CONSOLE=ttyMSM0

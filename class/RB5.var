@@ -1,3 +1,4 @@
 KVERS=5.13.0-qcomlt-arm64
 fdtfile=qcom/qrb5165-rb5.dtb
 ROOTFS_PARTLABEL=rootfs
+SERIAL_CONSOLE=ttyMSM0

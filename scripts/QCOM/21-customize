@@ -5,6 +5,9 @@ cat << EOF > $target/etc/fstab
 PARTLABEL=${ROOTFS_PARTLABEL} / ext4   rw,relatime,data=ordered 0 1
 EOF
 
+# Add symlink to trigger systemd start of ttyMSM0 console
+ln -sf "/lib/systemd/system/serial-getty@.service" "$target/etc/systemd/system/getty.target.wants/serial-getty@${SERIAL_CONSOLE}.service"
+
 if ifclass INSTALLER; then
     # no need to resize rootfs for SD card boot
     rm -f $target/lib/systemd/system/resize-helper.service

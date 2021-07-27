@@ -1,3 +1,4 @@
 KVERS=5.13.0-qcomlt-arm64
 fdtfile=qcom/sdm845-db845c.dtb
 ROOTFS_PARTLABEL=rootfs
+SERIAL_CONSOLE=ttyMSM0
