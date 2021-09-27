@@ -1,4 +1,4 @@
-KVERS=5.13.0-qcomlt-arm64
+KVERS=5.15.0-qcomlt-arm64
 fdtfile=qcom/apq8016-sbc.dtb
 ROOTFS_PARTLABEL=rootfs
 SERIAL_CONSOLE=ttyMSM0

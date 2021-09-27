@@ -7,15 +7,15 @@ rmtfs
 
 PACKAGES install-norec DB410C
 firmware-qcom-dragonboard410c
-linux-image-5.13.0-qcomlt-arm64
+linux-image-5.15.0-qcomlt-arm64
 
 PACKAGES install-norec DB820C
 firmware-qcom-dragonboard820c
-linux-image-5.13.0-qcomlt-arm64
+linux-image-5.15.0-qcomlt-arm64
 
 PACKAGES install-norec DB845C
 firmware-qcom-dragonboard845c
-linux-image-5.13.0-qcomlt-arm64
+linux-image-5.15.0-qcomlt-arm64
 network-manager-config-dragonboard845c
 pd-mapper
 tqftpserv
@@ -23,7 +23,7 @@ tqftpserv
 PACKAGES install-norec RB5
 firmware-misc-nonfree
 firmware-qcom-rb5
-linux-image-5.13.0-qcomlt-arm64
+linux-image-5.15.0-qcomlt-arm64
 pd-mapper
 tqftpserv
 
