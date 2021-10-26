@@ -39,7 +39,10 @@ fonts-ipafont-mincho
 fonts-unfonts-core
 gdbserver
 git
-glmark2
+glmark2-drm
+glmark2-es2-drm
+glmark2-es2-x11
+glmark2-x11
 glshim
 gnome-keyring
 gnupg
